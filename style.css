@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -46,4 +46,33 @@ section {
     background-position: right;
     padding-right: 10%;
 
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 40px grey;
+
+
+}
+
+#graphic-designer {
+    border-left: 7px solid tomato;
+}
+
+#ux-designer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
